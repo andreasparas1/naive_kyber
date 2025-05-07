@@ -2,7 +2,7 @@ naive_kyber
 ==============================
 [//]: # (Badges)
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://naive-kyber.readthedocs.io/en/latest/)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/naive_kyber/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/naive_kyber/actions?query=workflow%3ACI)
+[![GitHub Actions Build Status](https://github.com/andreasparas1/naive_kyber/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/naive_kyber/actions?query=workflow%3ACI)
 
 
 
