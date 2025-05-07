@@ -1,16 +1,13 @@
-.. naive_kyber documentation master file, created by
-   sphinx-quickstart on Thu Mar 15 13:55:56 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. naive_kyber documentation master file
 
 Welcome to naive_kyber's documentation!
-=========================================================
+=======================================
 
 .. grid:: 1 1 2 2
 
     .. grid-item-card:: Getting Started
       :margin: 0 3 0 0
-      
+
       Learn the basics of using naive_kyber.
 
       .. button-link:: ./getting_started.html
@@ -20,25 +17,9 @@ Welcome to naive_kyber's documentation!
 
          To the Getting Started Guide
 
-      
-
-    .. grid-item-card::  User Guide
-      :margin: 0 3 0 0
-      
-      An in-depth guide for users.
-
-      .. button-link:: ./user_guide.html
-         :color: primary
-         :outline:
-         :expand:
-
-         To the User Guide
-      
-      
-
     .. grid-item-card:: API Reference
       :margin: 0 3 0 0
-      
+
       How to use the API of naive_kyber.
 
       .. button-link:: ./api.html
@@ -48,20 +29,6 @@ Welcome to naive_kyber's documentation!
 
          To the API Reference.
 
-      
-
-    .. grid-item-card::  Developer Guide
-      :margin: 0 3 0 0
-      
-      How to contribute to naive_kyber.
-
-      .. button-link:: ./developer_guide.html
-         :color: primary
-         :outline:
-         :expand:
-
-         To the Developer Guide
-
 
 .. toctree::
    :maxdepth: 2
@@ -69,7 +36,4 @@ Welcome to naive_kyber's documentation!
    :titlesonly:
 
    getting_started
-   user_guide
    api
-   developer_guide
-
