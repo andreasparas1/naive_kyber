@@ -7,9 +7,19 @@ import sys
 
 import pytest
 
-import naive_kyber
+from naive_kyber import keygen, encrypt, decrypt
 
 
 def test_naive_kyber_imported():
-    """Sample test, will always pass so long as import statement worked."""
+    """Test encryption and decryption"""
     assert "naive_kyber" in sys.modules
+
+    pk, sk = keygen()
+    message = "hello sadfllsadkfjsalf, sadfklsafkasjflkajslkbjkejgioejgovasdf"
+
+    enc = encrypt(pk, message)
+
+    assert message == decrypt(sk, enc)
+
+if __name__ == "__main__":
+    test_naive_kyber_imported()
